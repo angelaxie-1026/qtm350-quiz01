@@ -1,0 +1,9 @@
+git clone https://github.com/angelaxie-1026/qtm350-quiz01
+cd qtm350-quiz01
+touch commands.txt
+git checkout -b feature-update
+mkdir reports
+touch reports/summary.md
+echo "This document provides a summary of the project updates." >> reports/summary.md
+git add reports/
+git commit -m "Add reports directory"
